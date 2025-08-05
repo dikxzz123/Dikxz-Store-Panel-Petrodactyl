@@ -1,1 +1,0 @@
-# Dikxz-Store-Panel-Petrodactyl
