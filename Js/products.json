@@ -1,0 +1,334 @@
+{
+    "products": [
+        {
+            "id": 21,
+            "name": "Private Unlimited",
+            "price": 15000,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: Unlimited"},
+                {"icon": "fas fa-microchip", "text": "CPU: Unlimited Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: Unlimited SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Unlimited Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Unlimited"}
+            ],
+            "description": "Paket private server unlimited dengan sumber daya tak terbatas.",
+            "badge": "POPULAR"
+        },
+        {
+            "id": 11,
+            "name": "Private 1GB",
+            "price": 2500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 1GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 30% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 1050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Private DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Stabil"}
+            ],
+            "description": "Paket dasar private server dengan sumber daya terjamin.",
+            "badge": ""
+        },
+        {
+            "id": 12,
+            "name": "Private 2GB",
+            "price": 3500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 2GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 60% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 2070GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Private DDoS Protection+"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Optimal"}
+            ],
+            "description": "Paket private server untuk kebutuhan menengah dengan performa lebih baik.",
+            "badge": ""
+        },
+        {
+            "id": 13,
+            "name": "Private 3GB",
+            "price": 4500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 3GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 90% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 3090GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Private DDoS Protection++"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Tinggi"}
+            ],
+            "description": "Paket private server untuk kebutuhan tinggi dengan performa optimal.",
+            "badge": ""
+        },
+        {
+            "id": 14,
+            "name": "Private 4GB",
+            "price": 5500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 4GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 120% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 4110GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Advanced Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Sangat Tinggi"}
+            ],
+            "description": "Paket private server untuk kebutuhan bisnis dengan performa tinggi.",
+            "badge": ""
+        },
+        {
+            "id": 15,
+            "name": "Private 5GB",
+            "price": 6500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 5GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 150% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 5130GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Enterprise Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Elite"}
+            ],
+            "description": "Paket private server profesional untuk kebutuhan intensif.",
+            "badge": ""
+        },
+        {
+            "id": 16,
+            "name": "Private 6GB",
+            "price": 7500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 6GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 180% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 6050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Premium Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Premium"}
+            ],
+            "description": "Paket private server premium untuk kebutuhan berat.",
+            "badge": ""
+        },
+        {
+            "id": 17,
+            "name": "Private 7GB",
+            "price": 8500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 7GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 210% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 7050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Ultimate Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Ultimate"}
+            ],
+            "description": "Paket private server ultimate untuk kebutuhan sangat berat.",
+            "badge": ""
+        },
+        {
+            "id": 18,
+            "name": "Private 8GB",
+            "price": 9500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 8GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 240% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 8050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Extreme Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Extreme"}
+            ],
+            "description": "Paket private server extreme untuk kebutuhan enterprise.",
+            "badge": ""
+        },
+        {
+            "id": 19,
+            "name": "Private 9GB",
+            "price": 10500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 9GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 270% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 9050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Titan Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Titan"}
+            ],
+            "description": "Paket private server titan untuk kebutuhan maksimal.",
+            "badge": ""
+        },
+        {
+            "id": 20,
+            "name": "Private 10GB",
+            "price": 11500,
+            "category": "private",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 10GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 300% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 10050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Max Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Max"}
+            ],
+            "description": "Paket private server maksimal untuk kebutuhan terbesar.",
+            "badge": ""
+        },
+        {
+            "id": 11,
+            "name": "Public Unlimited",
+            "price": 11500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: Unlimited"},
+                {"icon": "fas fa-microchip", "text": "CPU: Unlimited Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: Unlimited SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Unlimited Private Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Unlimited"}
+            ],
+            "description": "Paket private server unlimited dengan sumber daya tak terbatas.",
+            "badge": "PUBLIC"
+        },
+        {
+            "id": 1,
+            "name": "Public 1GB",
+            "price": 1500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 1GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 30% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 1050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Stabil"}
+            ],
+            "description": "Paket dasar public server dengan sumber daya terjamin untuk proyek kecil.",
+            "badge": ""
+        },
+        {
+            "id": 2,
+            "name": "Public 2GB",
+            "price": 2500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 2GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 60% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 2070GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "DDoS Protection+"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Optimal"}
+            ],
+            "description": "Paket public server untuk kebutuhan menengah dengan performa lebih baik.",
+            "badge": ""
+        },
+        {
+            "id": 3,
+            "name": "Public 3GB",
+            "price": 3500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 3GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 90% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 3090GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "DDoS Protection++"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Tinggi"}
+            ],
+            "description": "Paket public server untuk kebutuhan tinggi dengan performa optimal.",
+            "badge": ""
+        },
+        {
+            "id": 4,
+            "name": "Public 4GB",
+            "price": 4500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 4GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 120% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 4110GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Advanced DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Sangat Tinggi"}
+            ],
+            "description": "Paket public server untuk kebutuhan bisnis dengan performa tinggi.",
+            "badge": ""
+        },
+        {
+            "id": 5,
+            "name": "Public 5GB",
+            "price": 5500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 5GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 150% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 5130GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Enterprise DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Elite"}
+            ],
+            "description": "Paket public server profesional untuk kebutuhan intensif.",
+            "badge": ""
+        },
+        {
+            "id": 6,
+            "name": "Public 6GB",
+            "price": 6500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 6GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 180% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 6050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Premium DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Premium"}
+            ],
+            "description": "Paket public server premium untuk kebutuhan berat.",
+            "badge": ""
+        },
+        {
+            "id": 7,
+            "name": "Public 7GB",
+            "price": 7500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 7GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 210% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 7050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Ultimate DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Ultimate"}
+            ],
+            "description": "Paket public server ultimate untuk kebutuhan sangat berat.",
+            "badge": ""
+        },
+        {
+            "id": 8,
+            "name": "Public 8GB",
+            "price": 8500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 8GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 240% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 8050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Extreme DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Extreme"}
+            ],
+            "description": "Paket public server extreme untuk kebutuhan enterprise.",
+            "badge": ""
+        },
+        {
+            "id": 9,
+            "name": "Public 9GB",
+            "price": 9500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 9GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 270% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 9050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Titan DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Titan"}
+            ],
+            "description": "Paket public server titan untuk kebutuhan maksimal.",
+            "badge": ""
+        },
+        {
+            "id": 10,
+            "name": "Public 10GB",
+            "price": 10500,
+            "category": "public",
+            "specs": [
+                {"icon": "fas fa-memory", "text": "RAM: 10GB DDR4"},
+                {"icon": "fas fa-microchip", "text": "CPU: 300% Core"},
+                {"icon": "fas fa-hdd", "text": "Storage: 10050GB SSD NVMe"},
+                {"icon": "fas fa-shield-alt", "text": "Max DDoS Protection"},
+                {"icon": "fas fa-tachometer-alt", "text": "Performansi Max"}
+            ],
+            "description": "Paket public server maksimal untuk kebutuhan terbesar.",
+            "badge": ""
+        }
+    ]
+}
