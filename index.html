@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIKXZ STORE - Premium Pterodactyl Panel</title>
+<link rel="icon" href="https://files.catbox.moe/rewg2d.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Floating Particles Background -->
+    <div class="floating-particles" id="floating-particles"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="logo-icon"><i class="fas fa-server"></i></span>
+                <span class="logo-text">DIKXZ STORE</span>
+            </div>
+            <div class="navbar-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home" class="mobile-nav-link active">Home</a>
+        <a href="#products" class="mobile-nav-link">Products</a>
+        <a href="#features" class="mobile-nav-link">Features</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+    
+    <header id="home" class="animate-in">
+        <div class="particles" id="particles"></div>
+        <div class="container">
+            <h1>Premium Pterodactyl Panel</h1>
+            <p>Solusi server gaming dan aplikasi dengan performa tinggi dan manajemen mudah melalui panel Pterodactyl berkualitas premium.</p>
+            <div class="header-actions">
+                <a href="#products" class="btn btn-primary btn-lg">
+                    <i class="fas fa-shopping-bag"></i> Lihat Produk
+                </a>
+                <a href="#features" class="btn btn-outline btn-lg">
+                    <i class="fas fa-star"></i> Fitur Unggulan
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- Category Tabs -->
+        <section class="category-tabs scroll-effect">
+            <div class="tabs">
+                <button class="tab-btn active" data-category="all">Semua Produk</button>
+                <button class="tab-btn" data-category="public">Panel Publik</button>
+                <button class="tab-btn" data-category="private">Panel Private</button>
+            </div>
+        </section>
+        
+        <!-- Products Section -->
+        <section id="products" class="products-section scroll-effect">
+            <h2>Pilihan Spesifikasi</h2>
+            <p>Pilih paket yang sesuai dengan kebutuhan server Anda. Setiap paket dilengkapi dengan sumber daya terbaik untuk performa optimal.</p>
+            
+            <div class="products-grid" id="products-container">
+                <!-- Products will be loaded from JSON via JavaScript -->
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section id="features" class="features-section scroll-effect">
+            <h2>Fitur Unggulan</h2>
+            <p>Nikmati berbagai fitur eksklusif yang membuat pengelolaan server Anda menjadi lebih mudah dan efisien.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Performansi Optimal</h3>
+                    <p>Server dengan hardware terbaik untuk performa maksimal dan latency rendah.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>DDoS Protection</h3>
+                    <p>Perlindungan DDoS canggih untuk menjaga server Anda tetap online.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>Kontrol Penuh</h3>
+                    <p>Panel kontrol intuitif dengan akses penuh ke semua fitur server.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support 24/7</h3>
+                    <p>Tim support siap membantu Anda kapan saja dengan respon cepat.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-effect">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Punya pertanyaan? Tim support kami siap membantu Anda.</p>
+            
+            <div class="contact-methods">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Telegram</h3>
+                    <p></p>
+                    <a href="https://t.me/dikxz_store" class="btn btn-success">
+                        <i class="fab fa-telegram"></i> Chat Sekarang
+                    </a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>dikxzstore1@gmail.com</p>
+                    <a href="mailto:dikxzstore1@gmail.com" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> Kirim Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-server"></i> DIKXZ STORE
+                    </div>
+                    <p>Solusi hosting terbaik untuk kebutuhan server game dan aplikasi Anda.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#products">Produk</a></li>
+                        <li><a href="#features">Fitur</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                
+  
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2022 DIKXZ STORE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Cart Button -->
+    <div class="cart-button">
+        <button id="open-cart" class="btn btn-primary float-effect">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </button>
+    </div>
+    
+    <!-- Cart Modal -->
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-shopping-cart" style="margin-right: 10px;"></i> Keranjang Belanja</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            
+            <div id="cart-empty" class="cart-empty">
+                <i class="fas fa-box-open"></i>
+                <p>Keranjang belanja Anda kosong</p>
+                <button class="btn btn-outline" style="margin-top: 1.5rem;" id="browse-products">
+                    <i class="fas fa-arrow-left"></i> Lihat Produk
+                </button>
+            </div>
+            
+            <div id="cart-content" style="display: none;">
+                <div class="cart-items" id="cart-items">
+                    <!-- Items will be added here dynamically -->
+                </div>
+                
+                <div class="form-group">
+                    <label for="customer-name"><i class="fas fa-user" style="margin-right: 8px;"></i> Nama Penerima</label>
+                    <input type="text" id="customer-name" class="form-control" placeholder="Masukkan nama lengkap Anda">
+                </div>
+                
+                <div class="form-group">
+                    <label for="coupon-code"><i class="fas fa-tag" style="margin-right: 8px;"></i> Kode Kupon (Opsional)</label>
+                    <div class="coupon-group">
+                        <input type="text" id="coupon-code" class="form-control coupon-input" placeholder="Contoh: DIKXZ" style="color: white;">
+                        <button id="apply-coupon" class="btn btn-outline apply-coupon">Terapkan</button>
+                    </div>
+                </div>
+                
+                <div class="cart-summary">
+                    <div class="summary-row">
+                        <span>Subtotal Produk:</span>
+                        <span id="subtotal">Rp 0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Diskon:</span>
+                        <span id="discount">Rp 0</span>
+                    </div>
+                    <div class="summary-row summary-total">
+                        <span>Total Pembayaran:</span>
+                        <span id="total">Rp 0</span>
+                    </div>
+                </div>
+                
+                <div class="cart-actions">
+                <button id="clear-cart" class="btn btn-outline">
+                        <i class="fas fa-trash"></i> Kosongkan
+                    </button>
+                    <button id="checkout" class="btn btn-success">
+                        <i class="fab fa-telegram"></i> Bayar via Telegram
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product Detail Modal -->
+    <div class="modal" id="detail-modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <h2 id="detail-title"><i class="fas fa-info-circle" style="margin-right: 10px;"></i> Detail Produk</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            
+            <div class="product-detail">
+                <div id="detail-content">
+                    <!-- Detail will be added here dynamically -->
+                </div>
+                
+                <div class="product-actions" style="margin-top: 2rem;">
+                    <button class="btn btn-outline close-detail">
+                        <i class="fas fa-times"></i> Tutup
+                    </button>
+                    <button class="btn btn-primary add-to-cart-from-detail">
+                        <i class="fas fa-cart-plus"></i> Tambah ke Keranjang
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Notification -->
+    <div class="notification" id="notification">
+        <i class="fas fa-check-circle"></i>
+        <span id="notification-message">Produk telah ditambahkan ke keranjang</span>
+    </div>
+    
+    <script src="js/products.json"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
