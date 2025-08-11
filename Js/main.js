@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const encodedMessage = encodeURIComponent(message);
         
         // Open WhatsApp
-        window.open(`https://wa.me/6282121654303?text=${encodedMessage}`, '_blank');
+        window.open(`https://website-payment-dikxzstore.netlify.app`);
         
         // Close modal
         hideModal(cartModal);
