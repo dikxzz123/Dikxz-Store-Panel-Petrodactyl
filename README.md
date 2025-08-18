@@ -1,3 +1,13 @@
 SELAMAT DATANG DI WEBSITE BUY PANEL DIKXZ HOSTING
 SILAKAN KALIAN PAKAI AJA
-t.me/dikxz_store
+
+
+
+
+
+
+
+
+
+
+https://t.me/dikxz_store
